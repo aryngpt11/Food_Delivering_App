@@ -1,3 +1,18 @@
 .textOrange{
     color: orange !important;
 }
+
+p {
+    text-align: justify;
+}
+
+ .footer-copyright {
+    color: #a8d70e;
+} 
+/* .footer-copyright a {
+    color: #a8d70e; 
+} */
+
+a{
+    text-decoration: none;
+}
