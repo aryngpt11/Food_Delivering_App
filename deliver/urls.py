@@ -22,6 +22,8 @@ from customer.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', Index.as_view(), name='Index'),
+    path('', Index.as_view(), name='index'),
     path('about_us/', About.as_view(), name='About'),
+    path('order/', Order.as_view(), name='order'),
+
 ] + static(settings.MEDIA_URL , document_root=settings.MEDIA_ROOT)
